@@ -1,6 +1,11 @@
 # Factor Research Process 
 
-[本文件對應 `Factor_Research_Process` 流程圖]
+![Factor Research Process](img/factor-research-process-all.png)
+
+## Labs
+
+- [Cross-Sectional Crypto Factor Research Lab](cross-sectional-crypto-factor-research-lab/): 10 種大市值加密貨幣的三因子橫截面研究
+- [LLM Factor Discovery Lab](llm-factor-discovery-lab/): 使用 LLM 做因子假設與新聞特徵抽取
 
 | Layer | Responsibility |
 |---|---|
