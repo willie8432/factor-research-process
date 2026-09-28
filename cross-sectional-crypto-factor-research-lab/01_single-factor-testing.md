@@ -1,4 +1,4 @@
-# LLM Factor Discovery
+# Single Factor Testing
 
 ## Goal (WIP)
 
@@ -77,7 +77,7 @@ crypto 沒有資產負債表，且目前專案沒有流通量資料 (市值 = �
 
 共同 78 期對齊表 (2020-01-01 → 2026-07-01,排除 2020-03-01)
 
-[table 78 date metrics.png]
+![Table 1. Pre-backtesting factor metrics](img/table_78_date_metrics.png)
 
 三個因子都沒辦法顯示出可用的預測力，信賴區間全部都包含 0、t 值全部都小於 1.6、IR 沒有超出「完全沒有預測力」時該有的程度。所以這 78 期的證據而言這三個因子都無法宣稱有效。且失效型態不同。
 
@@ -113,7 +113,7 @@ Binance 在 2020-02-19 缺一根 4h bar (08:00 → 16:00)，造成當時已經�
 但是巧合的是，該 forward window 正好是 2020 年 3 月 COVID 崩盤，該期的 MOM 有最極端的橫截面，MOM 的 Full sample (79) IC: −0.0113 裡有九成來自這一期的崩盤資料，移除時 MOM (78) IC: -0.002，該調整同時也把唯一一次動能劇烈反轉的證據拿掉了。之後可以調整 window 以及因子值再觀測一次這段時間。
 ```
 
-[ICIR fig1_rolling_ic_three_panel]
+![Figure 1. Rolling 6-month Rank IC](img/fig1_rolling_ic_three_panel.png)
 
 
 ```
