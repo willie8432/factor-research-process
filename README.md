@@ -7,11 +7,13 @@
 - [Cross-Sectional Crypto Factor Research Lab](cross-sectional-crypto-factor-research-lab/): 10 種大市值加密貨幣的三因子橫截面研究
 - [LLM Factor Discovery Lab](llm-factor-discovery-lab/): 使用 LLM 做因子假設與新聞特徵抽取
 
+## Layer
+
 | Layer | Responsibility |
 |---|---|
 | **Data** | 產生乾淨、時序對齊、無 look-ahead bias 的 panel | 
 | **Factor** | 產生因子，並驗證單一因子的預測力 | 
-| **Portfolio** | 經由 backtesting、Out of Sample (OOS) 測試，把訊號轉成可執行，且扣除成本後仍成立的部位 | 
+| **Portfolio** | 經由 backtesting、Out of Sample (OOS) 測試，把訊號轉成可執行，且扣除成本後仍成立的策略 | 
 
 ---
 
