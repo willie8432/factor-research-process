@@ -87,7 +87,7 @@ mentions_btc 跟公式化的 regex 以及 vendor label  做比較，一樣可再
 
 ## News Extraction
 
-使用 AWS Bedrock Haiku  4.5，Prompt Engineering 只有精簡的三個直覺設計:
+使用 AWS Bedrock Haiku 4.5，Prompt Engineering 只有精簡的三個直覺設計:
 1. 要求模型準確獲取 16 個 fields
 2. 觸發 Bedrock prompt caching: 有 cache-hit 的呼叫成本，比每一筆直接訪問低了 90%
 3. 極小化 output token: 透過 JSON schema 範例，限制冗長的推理說明

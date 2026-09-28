@@ -29,7 +29,7 @@ LLM 模型具備金融文獻、量化研究、市場結構分析等專業，是�
 
 
 **使用兩階段 prompt 產出的好處**
-- 兩階段 prompt 符合 extending thinking 作法，就如同 Claude 推理方式，解決問題前先列出思考步驟。
+- 兩階段 prompt 符合 extended thinking 作法，就如同 Claude 推理方式，解決問題前先列出思考步驟。
 - 因子挖掘需要推理深度，而不是速度。強迫模型在挖掘前列出思考步驟以及原因。有機會做更深入的推理、辯論以及自我反駁。例如: 餵給另一個 session 做批判性思考與優化。
 - 若單一 dimension 有問題，可以單純重新探勘那個 dimension。例如本專案後續加入行為經濟學類別。
 
@@ -340,7 +340,7 @@ Step A. prompt 在放入 market 敘述的時候，記得移掉所有定量的數
 ## Curation Criteria
 
 
-本階段屬於 Prebacktest 篩選，透過明確的共 5 個的 criteria 檢查清單經過人工篩選，對每一個因子進行評分，將 factor 收斂下來，變成可以實作的因子集。
+本階段屬於 pre-backtest 篩選，透過明確的共 5 個的 criteria 檢查清單經過人工篩選，對每一個因子進行評分，將 factor 收斂下來，變成可以實作的因子集。
 
 Criteria 共分成兩種:
 
@@ -363,7 +363,7 @@ Criteria 共分成兩種:
 
 
 ```
-💡 Sample number (n) must larger than 30
+💡 Sample size (n) must be larger than 30
 
 根據 Central Limit Theorem(中央極限定理)，樣本數 n ≥ 30 時近似 normal distribution，而對於其餘統計工具 (t-test、OLS regression) 都假設樣本是 normal distribution。換句話說，樣本數 n < 30 檢定結果基本上不可信。
 ```
