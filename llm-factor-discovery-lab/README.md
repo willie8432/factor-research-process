@@ -11,7 +11,7 @@
 
 ## 2. Pipeline
 
-[factor-research-process-llm-factor-discovery-lab]
+![LLM Factor Discovery Lab Pipeline](img/llm-factor-discovery-lab.png)
 
 - **Data Acquisition & Alignment**: Binance OHLCV + CryptoNews corpus
 - **Factor Discovery**: LLM (Sonnet 4.6 + Fable 5.1)
@@ -56,7 +56,7 @@
 
 ## 5. Result & Future Work
 
-本專案研究的區間又寬又含 0，無法有效識別因子是屬於「完全無效」還是「典型好因子」。同時，單一資產導致 IC 為時序排名，而不是業界常看到的橫截面 (cross-sectional) 資產定義。未來改善:
+本專案研究的 IC 信賴區間又寬又含 0，無法有效識別因子是屬於「完全無效」還是「典型好因子」。同時，單一資產導致 IC 為時序排名，而不是業界常看到的橫截面 (cross-sectional) 資產定義。未來改善:
 
 - 增加單期橫截面樣本數，幣數
 - 增加樣本期數， rebalance 次數
